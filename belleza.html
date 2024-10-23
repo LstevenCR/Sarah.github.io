@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="imagenes/icono.jpeg" type="image/x-icon" />
+    <title>SARAH</title>
+
+    <!-- Bootstrap CSS -->
+    <section>
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+      />
+      <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800"
+        rel="stylesheet"
+      />
+    </section>
+
+    <!-- CSS -->
+    <section>
+      <link rel="stylesheet" href="css/animate.css" />
+      <link rel="stylesheet" href="css/main.css" />
+      <link rel="stylesheet" href="cssBlogs/belleza.css" />
+    </section>
+
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css"
+    />
+
+    
+     <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMF7UjK4pI7l5Hmv4J3i/Ti04X4fjb6vZR1c9qF" crossorigin="anonymous">
+
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
+
+    <!--PARA LETRAS TIPO-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+   <header class="header bg">
+   <div class="container text-white">
+      <div class="row">
+         <!-- Columna izquierda: nombre -->
+         <div class="col-sm-4 align-self-center text-left">
+         <h2 class="SARAH">𝓢𝓪𝓻𝓪𝓱</h2>
+
+         </div>
+
+         <!-- Columna central: logo -->
+         <div class="col-sm-4 col-12 align-self-center box-1 text-center">
+            <a class="navbar-brand" href="proyecto.html">
+               <img
+                  src="imagenes/nuevoLogo-a4sbwo50P-transformed.png"
+                  alt="Logo de Sarah"
+               />
+            </a>
+         </div>
+
+         <!-- Columna derecha: iconos sociales -->
+         <div class="col-sm-4 align-self-center text-right">
+            <div class="social-icons">
+               <a href="https://www.facebook.com/modasSarahD" class="fa fa-facebook"></a>
+               <a href="https://www.instagram.com/modas_sarah_d/" class="fa fa-instagram"></a>
+               <a href="https://wa.me/62854813" class="fa fa-whatsapp"></a>
+               <a href="https://maps.app.goo.gl/9AHSerdWEcqSGeYA9" class="fa fa-map-marker" aria-hidden="true"></a>
+            </div>
+         </div>
+      </div>
+      <!--/row-->
+   </div>
+   <!--/container-->
+</header>
+
+    <span class="position-absolute trigger"></span>
+    <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
+      <div class="container">
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar1"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos/Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acerca.html">Acerca de</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--container end-->
+    </nav>
+
+    <!--MENU DEL BLOG-->
+    <section>
+      <nav class="uk-navbar-container">
+        <div class="uk-container">
+          <div uk-navbar>
+            <div class="uk-navbar-left">
+              <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                  <a href="blog.html" class="custom-text-color">MODA</a>
+                </li>
+                <li>
+                  <a href="estiloVida.html" class="custom-text-color"
+                    >ESTILO DE VIDA</a
+                  >
+                </li>
+                <li>
+                  <a href="belleza.html" class="custom-text-color">BELLEZA</a>
+                </li>
+              </ul>
+            </div>
+            <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                  <a href="trucos.html" class="custom-text-color"
+                    >CONSEJOS PARA VESTIR</a
+                  >
+                </li>
+                <li>
+                  <a href="met.html" class="custom-text-color">ALFOMBRA ROJA</a>
+                </li>
+                <li>
+                  <a href="videos.html" class="custom-text-color">VIDEOS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--TENDENCIAS-->
+
+    <section class="arti-01">
+      <h2 class="titulo">BELLEZA</h2>
+    </section>
+    <hr>
+
+    <!--videos-->
+
+    <main class="videos-rauw">
+        <!-- Sección de videos y barra lateral -->
+    <div class="uk-grid-divider uk-child-width-expand@m" uk-grid>
+      <div class="uk-child-width-1-2@m" uk-grid>
+        <div>
+          <video
+            src="imagenes/47 secretos de belleza en 12 minutos_ Todo lo que aprendimos en 2022 _ Vogue México y Latinoamérica(720P_HD).mp4"
+            width="1800"
+            height="1200"
+            loop
+            muted
+            playsinline
+            uk-video="autoplay: inview"
+          ></video>
+        </div>
+        <div>
+          <video
+            src="imagenes/Ester Expósito_ skincare y maquillaje glowy con pequitas  _ Secretos de Belleza _ VOGUE España(720P_HD).mp4"
+            width="1800"
+            height="1200"
+            loop
+            muted
+            playsinline
+            uk-video="autoplay: hover"
+          ></video>
+        </div>
+        <!-- Segunda fila de videos -->
+        <div>
+          <video
+            src="imagenes/Rauw Alejandro se inspiró en los 60 para su look de Vogue World _ Vogue México y Latinoamérica(720P_HD).mp4"
+            width="1800"
+            height="1200"
+            loop
+            muted
+            playsinline
+            uk-video="autoplay: inview"
+          ></video>
+        </div>
+        <div>
+          <video
+            src="imagenes/Un día con Jacob Elordi de _Euphoria_ _ 24 horas _ Vogue México y Latinoamérica(720P_HD).mp4"
+            width="1800"
+            height="1200"
+            loop
+            muted
+            playsinline
+            uk-video="autoplay: hover"
+          ></video>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <h2 class="descubre">Descubre la Belleza</h2>
+        <ul>
+          <li>
+            <img
+              src="https://media.vogue.mx/photos/667889907b732a36d0c927c6/master/w_1600,c_limit/Vogue-World-2024-Paris-credit-ChristinaFragkou_162.jpg"
+              alt="uñas"
+            />
+            <div class="text-content">
+              <a
+                href="https://www.vogue.mx/articulo/unas-en-tendencia-otono-invierno-2024"
+                >TODAS las uñas en tendencia para Otoño-Invierno 2024</a
+              >
+              <p>Por Lorena Meouchi</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2019/08/23/000614923W.jpg"
+              alt="cafe-belleza"
+            />
+            <div class="text-content">
+              <a
+                href="https://www.msn.com/es-us/salud/nutricion/8-formas-de-incluir-el-caf%C3%A9-en-tus-tratamientos-de-belleza/ar-AA1rxhvJ?ocid=BingNewsVerp"
+                >8 formas de incluir el café en tus tratamientos de belleza</a
+              >
+              <p>Por Lulismar Estevez</p>
+            </div>
+          </li>
+
+          <li>
+            <img
+              src="https://www.mundiario.com/media/mundiario/images/2024/09/28/2024092808151455438.png"
+              alt="labios"
+            />
+            <div class="text-content">
+              <a
+                href="https://www.mundiario.com/articulo/beauty/como-lograr-look-labios-perfecto-kit-labios-kylie-cosmetics/20240928145740319097.html"
+                >Cómo lograr un look de labios con el kit de labios de Kylie
+                Cosmetics</a
+              >
+              <p>Por Fátima Gómez</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </main>
+  
+
+    <!-- INFO ARTICULOS-->
+
+    <section class="arti-01">
+      <div class="uk-flex uk-flex-wrap uk-child-width-1-2@m">
+        <!-- UNO-->
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-header">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-auto">
+                <img
+                  class="uk-border"
+                  width="200"
+                  height="200"
+                  src="https://files.merca20.com/uploads/2024/09/Stranger-Things-Colourpop.jpg"
+                  alt="imagen-01"
+                />
+              </div>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  La belleza en otra dimensión: ColourPop X Stranger Things
+                  ¿Cómo comprar la colección desde México?
+                </h3>
+                <p class="uk-text-meta uk-margin-remove-top">
+                  <time datetime="2024-10-01T19:00">Septiembre 27, 2024</time>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>
+              ColourPop se ha puesto las pilas y lanzó una nueva colección de
+              Stranger Things con una línea de maquillaje de otra dimensión
+            </p>
+          </div>
+          <div class="uk-card-footer">
+            <a href="articulo1.html" class="uk-button uk-button-text"
+              >LEER MÁS</a
+            >
+            <hr>
+          </div>
+        </div>
+
+        <!-- DOS-->
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-header">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-auto">
+                <img
+                  class="uk-border"
+                  width="200"
+                  height="200"
+                  src="https://img.freepik.com/premium-photo/photo-very-detailed-face-young-cute-beatutiful-woman-healthy-radiant-taking-care-herself_935410-5667.jpg"
+                  alt="imagen-02"
+                />
+              </div>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  El secreto para tener una piel de porcelana: Claves para una
+                  belleza radiante
+                </h3>
+                <p class="uk-text-meta uk-margin-remove-top">
+                  <time datetime="2024-10-01T19:00">Septiembre 30, 2024</time>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>
+              La búsqueda de una piel de porcelana ha sido un objetivo estético.
+              ¿Cuál es realmente el secreto detrás de este deseo de perfección?
+            </p>
+          </div>
+          <div class="uk-card-footer">
+            <a href="articulo2.html" class="uk-button uk-button-text"
+              >LEER MÁS</a
+            >
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="uk-flex uk-flex-wrap uk-child-width-1-2@m">
+        <!-- TRES-->
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-header">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-auto">
+                <img
+                  class="uk-border"
+                  width="200"
+                  height="200"
+                  src="https://th.bing.com/th/id/R.999adfa178ffb1fe6296d148609a001b?rik=zNRjSK%2fz5oW%2bVg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-pYd-SYG3szY%2fU4vvy0RdIlI%2fAAAAAAAAFHg%2fsdUWjWwpa-A%2fs1600%2fDiario50ShadesJamie%2b(9).jpg&ehk=c6o6JIT3%2fVGfuOX8l6145K%2bC4w%2fvFq%2bTh%2b9fdWmUZHM%3d&risl=&pid=ImgRaw&r=0"
+                  alt="imagen-03"
+                />
+              </div>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  Jamie Dornan, desde la bañera, anuncia esta campaña de
+                  perfumes para hombre
+                </h3>
+                <p class="uk-text-meta uk-margin-remove-top">
+                  <time datetime="2024-10-01T19:00">Octubre 02, 2024</time>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>
+              Conversamos con el actor y nuevo protagonista de la campaña de
+              perfumes de Loewe, filmada por David Sims. Dornan ama un buen
+              “baño de ópera” y aquí nos explica qué es.
+            </p>
+          </div>
+          <div class="uk-card-footer">
+            <a href="articulo3.html" class="uk-button uk-button-text"
+              >LEER MÁS</a
+            >
+            <hr>
+          </div>
+        </div>
+
+        <!-- CUATRO-->
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-header">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-auto">
+                <img
+                  class="uk-border"
+                  width="231"
+                  height="231"
+                  src="https://i.pinimg.com/736x/41/21/6b/41216b25d80c14a5abc601d78a2be1c8.jpg"
+                  alt="imagen-04"
+                />
+              </div>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  Esta es la máscara de pestañas favorita de Kendall Jenner para
+                  lograr una mirada felina
+                </h3>
+                <p class="uk-text-meta uk-margin-remove-top">
+                  <time datetime="2024-10-01T19:00">Septiembre 5, 2024</time>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>
+              La supermodelo revela su arma secreta para unas pestañas de
+              ensueño: la máscara de pestañas Panorama de L'Oréal Paris.Kendall
+              Jenner, la supermodelo más icónicas del clan Kardashian-Jenner.
+            </p>
+          </div>
+          <div class="uk-card-footer">
+            <a href="articulo4.html" class="uk-button uk-button-text"
+              >LEER MÁS</a
+            >
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="uk-flex uk-flex-wrap uk-child-width-1-2@m">
+        <!-- cinco-->
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-header">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-auto">
+                <img
+                  class="uk-border"
+                  width="200"
+                  height="200"
+                  src="https://media.glamour.mx/photos/66f41980b6db3b6a523bd045/16:9/w_1600,c_limit/Serena-Sitio10.jpg"
+                  alt="imagen-05"
+                />
+              </div>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  La rutina de belleza de Serena Williams es una jugada
+                  estratégica en pos de la AUTENTICIDAD
+                </h3>
+                <p class="uk-text-meta uk-margin-remove-top">
+                  <time datetime="2024-10-01T19:00">Septiembre 30, 2024</time>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>
+              Si algo ha demostrado es que la belleza es activa y tiene el poder
+              de hacer toda una declaración de autoconfianza.
+            </p>
+          </div>
+          <div class="uk-card-footer">
+            <a href="articulo5.html" class="uk-button uk-button-text"
+              >LEER MÁS</a
+            >
+          </div>
+        </div>
+
+        <!-- seis-->
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-header">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-auto">
+                <img
+                  class="uk-border"
+                  width="200"
+                  height="200"
+                  src="https://www.erickteranmakeup.com/wp-content/uploads/2017/08/eye-makeup.jpg"
+                  alt="imagen-06"
+                />
+              </div>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  Tendencias de maquillaje y pelo de otoño 2024: del grunge
+                  sofisticado a los flequillos en todas sus versiones
+                </h3>
+                <p class="uk-text-meta uk-margin-remove-top">
+                  <time datetime="2024-10-01T19:00">Octubre 01, 2024</time>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>
+              La cartelera de otoño-invierno 2024 en términos de tendencias de
+              maquillaje y pelo tiene unos protagonistas bien definidos.
+            </p>
+          </div>
+          <div class="uk-card-footer">
+            <a href="articulo6.html" class="uk-button uk-button-text"
+              >LEER MÁS</a
+            >
+            <hr>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- inicio de pagina-->
+    <a id="Inicios" href="#top" class="scroll-to-top">Inicio</a>
+
+    <!-- Footer -->
+    <footer style="background-color: black" class="bg3 p-t-75 p-b-32">
+      <p class="stext-107 cl6 txt-center">
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Todos los derechos reservados | Diseñado
+        <i class="fa fa-heart-o" aria-hidden="true"></i> por
+        <a target="_blank">Ana Medina</a> &
+        <a target="_blank">Steven Castro</a>
+      </p>
+    </footer>
+  </body>
+</html>
